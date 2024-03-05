@@ -2,9 +2,13 @@
 
 Schrodinger's Signup is a simple React application for user signup, featuring offline support for storing user data locally when the user is offline and submitting it to the server when back online.
 
+
 Github Link Frontend : (https://github.com/kuntalkumar/practiceTime)
+
 Github Link Backend : (https://github.com/kuntalkumar/zarektronix)
+
 Deploy link Frontend :(https://65e758cf0c5b92415629968e--resonant-biscuit-4cc77d.netlify.app/)
+
 Deploy link Backend :(https://fine-cyan-butterfly-cuff.cyclic.app/)
 
 ## Table of Contents
