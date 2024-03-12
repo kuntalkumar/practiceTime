@@ -1,0 +1,253 @@
+#parent{
+    /* width: 1280px;
+height: 830px; */
+background: #FFF;
+/* background-color: gray; */
+margin: -8px;
+padding: 0px;
+/* border: 2px solid black; */
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(194, 203, 212);
+    padding: 20px;
+    color: white;
+}
+#navbar img{
+
+    width: 30%;
+
+}
+#left{
+    display: flex;
+}
+
+#right{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+#right div{
+    cursor: pointer;
+    text-decoration: none;
+
+}
+#footer{
+display: grid;
+place-items: center;
+}
+#footer :nth-child(2) img{
+    width: 100%;
+}
+#footer :nth-child(4) img{
+    width: 90%;
+}
+#footer1{
+    background: #007A83;
+    width: 33%;
+  padding: 15PX;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -20px;
+
+}
+#footer1 :nth-child(2){
+    text-align: center;
+
+    color: #FFF;
+    font-family: "Goudy Old Style";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+#footer1 :nth-child(1){
+    color: #000;
+font-family: "Goudy Old Style";
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.2px;
+margin-left:128px;
+}
+
+#footer3{
+display: flex;   
+flex-direction: column ;
+justify-content: center;
+align-items: center; 
+margin-top: -50px;
+}
+
+#foot3a{
+   
+background-color:   #E69706;
+width: 60%;
+height: 30px;
+align-items: center;
+text-align: center;
+padding-top: 10px;
+
+color: #FFF;
+text-align: center;
+font-family: "Goudy Old Style";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.6px;
+}
+#foot3b{
+    width: 38%;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+    background: #007A83;
+    color: #FFF;
+padding: 55px;
+text-align: center;
+font-family: "TT Chocolates";
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+#topcont img{
+    width: 100%;
+}
+#midcont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#midcont1{
+    background: #007A83;
+    text-align: start;
+    width: 100%;
+    
+}
+
+#midcont1 :nth-child(1) {
+    color: #E69706;
+    font-family: "Goudy Old Style";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.2px;
+    margin-left: 35%;
+}
+#midcont1 :nth-child(2) {
+    text-align: center;
+
+    font-family: "Goudy Old Style";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+#midcont2{
+/* position: relative;
+left: 25%;
+top: 50%;
+    font-size: 17px;
+     */
+     display: flex;
+     flex-direction: column;
+     align-items:center ;
+
+}
+#midcont2 :nth-child(1){
+    font-family: "Goudy Old Style";
+    width: 33%;
+    margin: 40px 0 30px 0;
+
+}
+#midcont2 div:hover{
+    scale: 1.2;
+}
+
+#midcont2 :nth-child(2){
+    font-family: "Goudy Old Style";
+
+    width: 18%;
+    color: rgb(116, 180, 206);
+    margin: 20px 0 80px 0;
+    margin-left: -245px;
+
+}
+#botcont1{
+    font-family: "Goudy Old Style";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.8px;
+text-align: center;   
+/* border: 10px solid teal; */
+border-top: 10px solid teal;
+
+border-bottom: 10px solid teal;
+margin:  120px 0 20px 0;
+}
+
+
+
+
+
+#botcont1 :nth-child(2){
+    color: teal;
+}
+
+
+
+
+
+#botcont2 {
+    display: flex;
+    overflow: hidden; 
+  }
+
+  #botcont2 div {
+    flex: 0 0 20%; 
+    transition: transform 1s ease; 
+  }
+
+  #botcont2 img {
+    width: 95%;
+    height: 90%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+#botcont2 h3{
+    margin-top: -70px;
+    color: white;
+    font-weight: bold;
+    width: 80%;
+    padding: 10px;
+}
+
+#botcont2 img:hover{
+    scale: 1.1;
+}
+
+
+/* #companylogo{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+#companylogo img{
+    width: 15%;               
+        aspect-ratio: 3/2;        
+        object-fit: contain;        
+        mix-blend-mode: color-burn;
+} */
